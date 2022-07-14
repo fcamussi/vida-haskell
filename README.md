@@ -4,7 +4,7 @@ Vida es una implementación en Haskell del juego de la vida de Conway, un autóm
 
 El Juego consiste en un tablero con forma de cuadrícula que contiene una célula por cuadro, aunque en la versión original el tablero es infinito, mi implementación es con bordes, es decir, el universo es finito.
 
-Las células tiene dos estados, pueden estar vivas o muertas. El tablero evoluciona a lo largo de unidades de tiempo discretas. El estado de todas las células se tiene en cuenta para calcular el estado de las mismas al turno siguiente.
+Las células tienen dos estados, pueden estar vivas o muertas. El tablero evoluciona a lo largo de unidades de tiempo discretas. El estado de todas las células se tiene en cuenta para calcular el estado de las mismas al turno siguiente.
 
 Las transiciones dependen del número de células vecinas vivas:
 * Una célula muerta con exactamente 3 células vecinas vivas "nace"
